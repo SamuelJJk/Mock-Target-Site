@@ -65,16 +65,50 @@
     text-decoration: underline;
 }
 .navbarWrap{
-    border: solid salmon;
+    /* border: solid salmon; */
     background-color:  white;
-    display: block;
-    height: 85px;
+    /* display: flex; */
+    height: 80px;
+    /* justify-content: center; */
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
 }
 .navbar{
+    width: 100%;
     border: solid brown;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
+    padding: 0 auto;
+    height: inherit;
+}
+.logo{
+    width: 100%;
+    max-width: 55px;
+    height: auto;
+}
+.searchBar{
+    border: solid blue;
+    background-color: rgba(230, 225, 225, 0.82);
+    width: 100%;
+    display: flex;
+    max-width: 400px;
+    border-radius: 5px;
+    height: 30px;
+}
+.searchBar > input{
+    background-color: transparent;
+    width: 100%;
+    border: 0;
+
+}
+.searchBar > button{
+    background-color: transparent;
+    border: 0;
+    height: 30px;
+    cursor: pointer;
+
 }
 .pagebanner{
     position: relative;
@@ -123,8 +157,11 @@
 }
 
 .firstCard,.secondCard,.thirdCard{
-    width: 70px;
+    width: 100%;
     height: auto;
-    max-width: 100px;
+    max-width: 300px;
+    justify-content: space-between;
 }
-
+.firstCard > img,.secondCard > img,.thirdCard > img{
+width: 100%;
+}
