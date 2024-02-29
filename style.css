@@ -1,0 +1,86 @@
+*{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+.utilityHeaderWrap{
+    background-color: rgb(204, 0, 0);
+    height: 50px;
+    display: block;
+}
+.utilityHeader{
+    border: solid black;
+    height: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.headerBtn{
+    border:solid blue;
+    display: flex;
+
+}
+.address{
+    border: solid green;
+    display: block;
+}
+.storeLocation{
+    border: solid orange;
+}
+.headerLinkCont{
+    border: solid plum;
+    display: flex;
+    justify-content: space-evenly;
+}
+.headerLink{
+    padding:8px;
+    font-size: 14px;
+}
+.navbarWrap{
+    border: solid salmon;
+    background-color:  white;
+    display: block;
+    height: 85px;
+
+}
+.navbar{
+    border: solid brown;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pagebanner{
+    position: relative;
+    border: solid peru;
+    margin: 0 10%;
+    max-width: 1300px;
+    height: auto;
+}
+.pagebanner > img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.overlay {
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    padding: 20px; 
+ 
+}
+
+.overlay p {
+    margin:0px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.overlay button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
