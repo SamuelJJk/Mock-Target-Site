@@ -112,3 +112,19 @@
     border-radius: 5px;
     margin-top: 10px;
 }
+
+.styleCards{
+    border: solid green;
+    display: flex;
+    max-width: 1300px;
+    height: auto;
+    justify-content: center;
+    background-color: rgb(250, 208, 200);
+}
+
+.firstCard,.secondCard,.thirdCard{
+    width: 70px;
+    height: auto;
+    max-width: 100px;
+}
+
